@@ -74,10 +74,10 @@ export default function Contact() {
               Reach out !
             </h3>
             <p className="mb-2 text-center">
-              Hi there! I&apos;m starting my journey as a developer and excited to grow my skills.
+              Hi there! I am starting my journey as a developer and excited to grow my skills.
             </p>
             <p className="mb-2 text-center">
-              I&apos;m open to learning, collaborating, and connecting with like-minded people.
+              I am open to learning, collaborating, and connecting with like-minded people.
             </p>
             <p className="text-center">Drop me a message!</p>
 
