@@ -53,7 +53,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-black text-slate-200 p-6 pt-[120px] flex flex-col items-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-10">About Me</h1>
-      <span className="absolute text-[6rem] md:text-[7rem] font-bold text-white left-0 opacity-10 select-none bottom-155 pointer-events-none">
+      <span className="hidden md:block absolute text-[6rem] md:text-[7rem] font-bold text-white left-0 opacity-10 select-none bottom-155 pointer-events-none">
         CODING
       </span>
 
