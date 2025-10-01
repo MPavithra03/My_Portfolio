@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useEffect, useState } from "react";
 
 
+
 const roles = [
   "{ Full-Stack Developer }",
   "{ Web Designer }",
