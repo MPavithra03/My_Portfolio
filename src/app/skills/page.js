@@ -197,6 +197,8 @@ export default function Skills() {
                     <Image
                       src={skillImages[item]}
                       alt={item}
+                      width={80}
+                      height={80}  
                       className="w-20 h-20 object-contain mb-3"
                     />
                     <span className={`${zenDots.className} text-sm font-extralight`}>

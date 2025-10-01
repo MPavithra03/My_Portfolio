@@ -22,15 +22,15 @@ export default function Contact() {
 
     try {
       const res = await emailjs.send(
-        "service_d725frk",       // ← replace with your EmailJS service ID
-        "template_jppzbm2",  // ← replace with your EmailJS template ID
+        "service_d725frk",     
+        "template_jppzbm2",  
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
           time: new Date().toLocaleString(),
         },
-        "0enJdkNR-hkeU-fiD"    // ← replace with your EmailJS public key
+        "0enJdkNR-hkeU-fiD"    
       );
 
       if (res.status === 200) {

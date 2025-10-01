@@ -31,6 +31,8 @@ export default function ProjectCard({ title, description, image, tech, link, git
             <Image
               src={image} 
               alt={title}
+              width={500}   // set actual width
+              height={300}
               className="w-full h-full object-cover border-2"
             />
           </div>

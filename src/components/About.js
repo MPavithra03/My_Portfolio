@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const content = [
   {
     title: "Who I Am",
-    text: "Hi, I&apos;m Pavithra, a budding full-stack developer who enjoys tackling challenges and building applications that solve real-world problems. I&apos;m passionate about learning new technologies and turning ideas into practical solutions.",
+    text: "Hi, I am Pavithra, a budding full-stack developer who enjoys tackling challenges and building applications that solve real-world problems. I am passionate about learning new technologies and turning ideas into practical solutions.",
     source: "About",
   },
   {
