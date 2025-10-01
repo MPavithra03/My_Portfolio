@@ -17,7 +17,7 @@ const projects = [
       "My Personal portfolio website.",
     image: "/images/portfolio.png", 
     tech: "Next.js, Tailwindcss",
-    github:"https://github.com/MPavithra03/MyPortfolio",
+    github:"https://github.com/MPavithra03/My_Portfolio",
   },
   {
     title: "EMS",
