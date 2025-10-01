@@ -20,17 +20,13 @@ const content = [
   },
 ];
 
-function Card({ item, className,delay=0 }) {
+function Card({ item, className, delay = 0 }) {
   return (
     <motion.div
-      drag
-      dragConstraints={{ left: -50, right: 50, top: -20, bottom: 20 }}
-      dragElastic={0.2}
-      whileTap={{ cursor: "grabbing" }}
       initial={{ opacity: 0, y: 50, scale: 0.95 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ duration: 0.8, delay, ease: "easeInOut" }}
-      className={`w-80 md:w-[28rem] h-70 rounded-xl border-2 border-[#00A8FF] bg-black shadow-xl overflow-hidden cursor-grab ${className}`}
+      className={`w-80 md:w-[28rem] h-70 rounded-xl border-2 border-[#00A8FF] bg-black shadow-xl overflow-hidden ${className}`}
     >
       {/* Browser-style top bar */}
       <div className="flex items-center gap-3 pl-6 pr-4 py-2 h-6 border-b-2 border-[#00A8FF] bg-black">
@@ -57,16 +53,15 @@ export default function About() {
   return (
     <div className="min-h-screen bg-black text-slate-200 p-6 pt-[120px] flex flex-col items-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-10">About Me</h1>
-       <span className="absolute text-[6rem] md:text-[7rem] font-bold text-white left-0 opacity-10 select-none bottom-155 pointer-events-none">
+      <span className="absolute text-[6rem] md:text-[7rem] font-bold text-white left-0 opacity-10 select-none bottom-155 pointer-events-none">
         CODING
       </span>
 
-      {/* Absolute positioned container */}
+      {/* Cards container */}
       <div className="relative w-full top-9 max-w-5xl md:h-[700px] flex flex-col items-center justify-center gap-6 md:block">
         <Card item={content[0]} className="relative md:absolute md:top-1/4 md:left-0" delay={0.1} />
         <Card item={content[1]} className="relative md:absolute md:top-0 md:left-3/5" delay={0.3} />
         <Card item={content[2]} className="relative md:absolute md:top-4/6 md:left-5/7 md:-translate-x-1/2 md:-translate-y-1/2" delay={0.5} />
-
       </div>
     </div>
   );
