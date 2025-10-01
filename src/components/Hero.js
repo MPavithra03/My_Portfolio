@@ -78,7 +78,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <Image src="/assets/github.png" alt="GitHub" className="w-12 h-12" />
+    <Image src="/assets/github.png" alt="GitHub" width={48} height={48}  />
   </a>
 
   {/* LinkedIn */}
@@ -88,7 +88,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <Image src="/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12" />
+    <Image src="/assets/linkedin.png" alt="LinkedIn" width={48} height={48}  />
   </a>
 
   {/* LeetCode */}
@@ -98,7 +98,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <Image src="/assets/leetcode.png" alt="LeetCode" className="w-12 h-12" />
+    <Image src="/assets/leetcode.png" alt="LeetCode" width={48} height={48}  />
   </a>
 </motion.div>
 
@@ -209,7 +209,7 @@ export default function Hero() {
         }}
         aria-hidden
       />
-<div className="hidden md:block absolute bottom-13 left-1/2 transform -translate-x-1/2">
+<div className="hidden md:block absolute bottom-14 left-1/2 transform -translate-x-1/2">
   <svg
     className="w-14 h-24 text-[#00A8FF]"
     viewBox="0 0 50 80"

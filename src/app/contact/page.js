@@ -77,7 +77,7 @@ export default function Contact() {
               Hi there! I&apos;m starting my journey as a developer and excited to grow my skills.
             </p>
             <p className="mb-2 text-center">
-              I’m open to learning, collaborating, and connecting with like-minded people.
+              I&apos;m open to learning, collaborating, and connecting with like-minded people.
             </p>
             <p className="text-center">Drop me a message!</p>
 
