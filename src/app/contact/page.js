@@ -162,7 +162,7 @@ export default function Contact() {
       </div>
       </div>
       <span className="absolute text-[6rem] md:text-[9rem] font-bold text-white opacity-10 select-none bottom-16 pointer-events-none">
-        LET'S COLLABORATE
+        LET&apos;S COLLABORATE
       </span>
     </motion.div>
   );

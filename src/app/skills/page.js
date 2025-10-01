@@ -3,6 +3,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 import { Zen_Dots } from "next/font/google";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -193,7 +194,7 @@ export default function Skills() {
                     whileHover={{ scale: 1.15 }}
                     className="flex flex-col items-center"
                   >
-                    <img
+                    <Image
                       src={skillImages[item]}
                       alt={item}
                       className="w-20 h-20 object-contain mb-3"

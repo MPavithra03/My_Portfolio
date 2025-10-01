@@ -78,7 +78,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <img src="/assets/github.png" alt="GitHub" className="w-12 h-12" />
+    <Image src="/assets/github.png" alt="GitHub" className="w-12 h-12" />
   </a>
 
   {/* LinkedIn */}
@@ -88,7 +88,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <img src="/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12" />
+    <Image src="/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12" />
   </a>
 
   {/* LeetCode */}
@@ -98,7 +98,7 @@ export default function Hero() {
     rel="noopener noreferrer"
     className="social-icon"
   >
-    <img src="/assets/leetcode.png" alt="LeetCode" className="w-12 h-12" />
+    <Image src="/assets/leetcode.png" alt="LeetCode" className="w-12 h-12" />
   </a>
 </motion.div>
 

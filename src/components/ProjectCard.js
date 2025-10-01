@@ -1,6 +1,7 @@
 // components/ProjectCard.js
 "use client";
 import { useState } from "react";
+import Image from 'next/image';
 import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ title, description, image, tech, link, github }) {
@@ -27,7 +28,7 @@ export default function ProjectCard({ title, description, image, tech, link, git
         <div className="absolute w-full h-full border-2 border-white  rounded-xl p-6 backface-hidden rotate-y-180 flex flex-col justify-center gap-10 shadow-lg">
           {/* Image */}
           <div className="w-full h-50 overflow-hidden rounded-lg">
-            <img
+            <Image
               src={image} 
               alt={title}
               className="w-full h-full object-cover border-2"
