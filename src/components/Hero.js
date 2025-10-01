@@ -1,10 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 import { useEffect, useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
-
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const roles = [
   "{ Full-Stack Developer }",
@@ -53,7 +51,7 @@ export default function Hero() {
   transition={{ delay: 1, duration: 3 }}
   className="text-4xl md:text-7xl text-[#00A8FF] font-extrabold -tracking-tight"
 >
-  I'm Pavithra !
+  I&apos;m Pavithra !
 </motion.h1>
 
 <motion.p

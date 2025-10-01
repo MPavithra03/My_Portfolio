@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
+import Image from 'next/image';
 import { Zen_Dots } from "next/font/google";
 import { motion } from "framer-motion";
 import { useState } from "react";
